@@ -1,0 +1,40 @@
+form{
+    display: flex;
+    flex-direction: column;
+    border: solid 3px rgb(133, 19, 186);
+    border-radius: 10px;
+    width: 45%;
+    padding: 30px;
+}
+input{
+    border-radius: 5px;
+    height: 25px;
+    border-color:rgb(133, 19, 186);
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+select{
+    border-radius: 5px;
+    height: 35px;
+    border-color: rgb(133, 19, 186);
+}
+button{
+    border-radius: 5px;
+    height: 40px;
+    background-color:rgb(102, 17, 142);
+    color: white;
+}
+button:hover{
+    color: rgb(188, 188, 188);
+    cursor:pointer;
+    background-color: rgb(79, 12, 110);;
+
+}
+a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
